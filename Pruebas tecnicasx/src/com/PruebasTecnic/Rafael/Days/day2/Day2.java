@@ -12,15 +12,14 @@ public class Day2 {
      */
 
     public void bucleSumImp(){
-        int sum=0;
-
         for (int i = 1; i<=100; i++){
-            if (i % 2 !=0){
-               sum += i;
-
+            if (i%2 !=0){
+                int sum = i+=i;
+                if (i==100){
+                    System.out.printf(String.valueOf(sum));
+                }
             }
         }
-        System.out.printf("La suma de todos los impares de 1 a 100 es " + sum);
 
     }
 
