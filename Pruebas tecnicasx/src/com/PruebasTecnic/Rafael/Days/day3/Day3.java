@@ -15,17 +15,17 @@ public class Day3 {
      */
 
     public void numMaxBucle(){
-        int [] arc = {5,15,20,4,10,21,27,58,99,100};
+        int [] arc = {5,15,20,4,10,100,27,58,99,11};
+        int max = arc[0];
 
         for (int i = 0; i < arc.length; i++){
 
-            if (i>0){
-                if (arc[i] > arc[i-1]){
-                    int result = arc[i];
-                    System.out.println(result);
-                }
+            if (arc[i] > max){
+                max = arc[i];
+
             }
         }
+        System.out.println("El numero mas grande en la cadena es " + max);
     }
 
 }
