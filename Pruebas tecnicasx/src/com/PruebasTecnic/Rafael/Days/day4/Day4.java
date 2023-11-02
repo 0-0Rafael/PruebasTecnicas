@@ -18,7 +18,7 @@ public class Day4 {
 
         }
 
-        System.out.println("La suma de todos los pares es " + pares);
-        System.out.println("La suma de todos loss impares es " + impares);
+        System.out.println("La suma de todos los pares es -->" + pares);
+        System.out.println("La suma de todos loss impares es --> " + impares);
     }
 }
