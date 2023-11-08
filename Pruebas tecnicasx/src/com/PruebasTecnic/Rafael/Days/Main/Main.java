@@ -6,12 +6,13 @@ import com.PruebasTecnic.Rafael.Days.day2.Day2;
 import com.PruebasTecnic.Rafael.Days.day3.Day3;
 import com.PruebasTecnic.Rafael.Days.day4.Day4;
 import com.PruebasTecnic.Rafael.Days.day5.Day5;
+import com.PruebasTecnic.Rafael.Days.day6.Day6;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Prueba tecnica dia 4");
-        Day5 day5 = new Day5();
-        day5.buclenummaxmin();
+        System.out.printf("Prueba tecnica dia 6 \n");
+        Day6 day6 = new Day6();
+        day6.buclefibonacci();
 
 
 
