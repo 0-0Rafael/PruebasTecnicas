@@ -9,12 +9,13 @@ import com.PruebasTecnic.Rafael.Days.day5.Day5;
 import com.PruebasTecnic.Rafael.Days.day6.Day6;
 import com.PruebasTecnic.Rafael.Days.day7.Day7;
 import com.PruebasTecnic.Rafael.Days.day8.Day8;
+import com.PruebasTecnic.Rafael.Days.day9.Day9;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Prueba tecnica dia 7 \n");
-        Day8 day8 = new Day8();
-        day8.ascent();
+        System.out.printf("Prueba tecnica dia 9 \n");
+        Day9 day9 = new Day9();
+        day9.secondnnum();
 
 
     }
