@@ -2,6 +2,7 @@ package com.PruebasTecnic.Rafael.Days.Main;
 
 
 import com.PruebasTecnic.Rafael.Days.day1.Day1;
+import com.PruebasTecnic.Rafael.Days.day11.Day11;
 import com.PruebasTecnic.Rafael.Days.day2.Day2;
 import com.PruebasTecnic.Rafael.Days.day3.Day3;
 import com.PruebasTecnic.Rafael.Days.day4.Day4;
@@ -13,9 +14,9 @@ import com.PruebasTecnic.Rafael.Days.day9.Day9;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Prueba tecnica dia 9 \n");
-        Day9 day9 = new Day9();
-        day9.secondnnum();
+        System.out.printf("Prueba tecnica dia 11 \n");
+        Day11 day11 = new Day11();
+        day11.mostrepe();
 
 
     }
